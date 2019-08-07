@@ -5,6 +5,8 @@ import java.util.Arrays;
  * 归并排序
  * 步骤 1.拆分 2.两两排序 3.合并(合并小值，再将剩余的子数组添加到合并后的数组尾部)
  * 时间复杂度 O logN*N
+ * 空间复杂度 非原地排序 O n
+ * 是稳定排序
  */
 public class MergeSort {
 
